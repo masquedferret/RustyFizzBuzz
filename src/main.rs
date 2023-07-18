@@ -6,7 +6,7 @@ fn main() {
     }
 }
 
-fn fizz_buzz<'life>( n: i32) -> String {
+fn fizz_buzz( n: i32) -> String {
     if (n % 3) == 0 && (n % 5) == 0 {    
         return "FizzBuzz".to_string();
     }
